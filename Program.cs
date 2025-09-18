@@ -31,7 +31,7 @@ namespace Ejercicio05
             app1.TurnEstado("JavaScript", 9.10F, dpFalse); /* Introduzco falsas credenciales en los parametros para probar la negacion del acceso */
             app1.TurnEstado("C#", 19.1F, dpArray); /* Pruebo Acceso con credenciales validos */
 
-            //* ---- Finalizando este ejercico el codigo, por ahi se me hace mas facil hacer el diagrama xD ---- *//
+            //* ---- Finalizando este ejercico en codigo, por ahi se me hace mas facil hacer el diagrama xD ---- *//
 
         }
         public abstract class Servidor
