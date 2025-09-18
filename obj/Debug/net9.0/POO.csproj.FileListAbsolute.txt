@@ -1,0 +1,28 @@
+C:\Users\hrdr1\OneDrive\Escritorio\POO\bin\Debug\net9.0\POO.exe
+C:\Users\hrdr1\OneDrive\Escritorio\POO\bin\Debug\net9.0\POO.deps.json
+C:\Users\hrdr1\OneDrive\Escritorio\POO\bin\Debug\net9.0\POO.runtimeconfig.json
+C:\Users\hrdr1\OneDrive\Escritorio\POO\bin\Debug\net9.0\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO\bin\Debug\net9.0\POO.pdb
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.AssemblyInfoInputs.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.AssemblyInfo.cs
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.csproj.CoreCompileInputs.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\refint\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.pdb
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\POO.genruntimeconfig.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO\obj\Debug\net9.0\ref\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\bin\Debug\net9.0\POO.exe
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\bin\Debug\net9.0\POO.deps.json
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\bin\Debug\net9.0\POO.runtimeconfig.json
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\bin\Debug\net9.0\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\bin\Debug\net9.0\POO.pdb
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.AssemblyInfoInputs.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.AssemblyInfo.cs
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.csproj.CoreCompileInputs.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\refint\POO.dll
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.pdb
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\POO.genruntimeconfig.cache
+C:\Users\hrdr1\OneDrive\Escritorio\POO - Week6\obj\Debug\net9.0\ref\POO.dll
