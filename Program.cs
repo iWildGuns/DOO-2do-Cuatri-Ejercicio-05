@@ -7,7 +7,6 @@ namespace Ejercicio05
     {
         static void Main()
         {
-            Console.WriteLine("Hello, World!");
             DataProcess dp1 = new("Analisis", 13.02F, "Linux", "LEntry", "LOut");
             DataProcess dp2 = new("Desarrollo", 3.12F, "Windows", "WEntry", "WOut");
             DataProcess dp3 = new("Deploy", 7.23F, "iOs", "iEntry", "iOut");
@@ -16,20 +15,24 @@ namespace Ejercicio05
             dp1.TurnEstado("Entrando", "Saliendo"); /* Se solicita ejecutar el metodo TurnEstado() sin exito ya que no son correctos los parametros para la confirmacion */
             dp1.clonarDB(); /* Output Confirmacion denegada */
 
-            DataProcess[] dpArray = new DataProcess[3];
-            dpArray[0] = dp1;
-            dpArray[1] = dp2;
-            dpArray[2] = dp3;
+            DataProcess[] dpArray1 = new DataProcess[3];
+            dpArray1[0] = dp1;
+            dpArray1[1] = dp2;
+            dpArray1[2] = dp3;
 
-            DataProcess[] dpFalse = new DataProcess[33];
+            DataProcess[] dpArray2 = new DataProcess[1];
+            dpArray2[0] = new DataProcess("Proyecto", 1.0F, "Ubuntu", "uEntry", "uOut");
+            dpArray2[0].TurnEstado("uEntry", "uOut"); /* Dando de Alta */
+            dpArray2[0].TurnEstado("uEntry", "uOut"); /* Dando de Baja */
 
-            dpArray[1].TurnEstado("WEntry", "WOut");
-            dpArray[1].VerStado();
+            dpArray1[1].TurnEstado("WEntry", "WOut");
+            dpArray1[1].VerStado();
 
-            Application app1 = new("Aion", 3.0F, "Windows", "C#", 19.1F, dpArray);
+            Application app1 = new("Aion", 3.0F, "Windows", "C#", 19.1F, dpArray1);
             app1.TurnEstado(); /* Output Confirma tu acceso a la instancia */
-            app1.TurnEstado("JavaScript", 9.10F, dpFalse); /* Introduzco falsas credenciales en los parametros para probar la negacion del acceso */
-            app1.TurnEstado("C#", 19.1F, dpArray); /* Pruebo Acceso con credenciales validos */
+            app1.TurnEstado("JavaScript", 9.10F, dpArray2); /* Introduzco falsas credenciales en los parametros para probar la negacion del acceso */
+            app1.TurnEstado("C#", 19.1F, dpArray1); /* Pruebo Acceso con credenciales validos */
+            app1.TurnEstado("C#", 19.1F, dpArray1); /* Doy de Baja la instancia a la App */
 
             //* ---- Finalizando este ejercico en codigo, por ahi se me hace mas facil hacer el diagrama xD ---- *//
 
@@ -75,10 +78,10 @@ namespace Ejercicio05
                 this.Estado = !this.Estado;
                 if (this.Estado)
                 {
-                    System.Console.WriteLine("Se ha levantado correctamente la instancia... \nPosee acceso a datos de Origen y Fin almacenados...");
+                    System.Console.WriteLine($"Se ha levantado correctamente la instancia {base.Nombre}... \nPosee acceso a datos de Origen y Fin almacenados...");
                     return;
                 }
-                System.Console.WriteLine("Se ha dado de baja correctamente la instancia...");
+                System.Console.WriteLine($"Se ha dado de baja correctamente la instancia {base.Nombre}...");
             }
             public void clonarDB()
             {
@@ -107,10 +110,10 @@ namespace Ejercicio05
                 this.Estado = !this.Estado;
                 if (this.Estado)
                 {
-                    System.Console.WriteLine($"Se ha levantado correctamente la instancia... \nSe ha instalado correctamente el lenguaje {this.Lenguaje} en la version {this.LenguajeV}");
+                    System.Console.WriteLine($"Se ha levantado correctamente la instancia de la app {base.Nombre}... \nSe ha instalado correctamente el lenguaje {this.Lenguaje} en la version {this.LenguajeV}");
                     return;
                 }
-                System.Console.WriteLine("Se ha dado de baja correctamente la instancia...");
+                System.Console.WriteLine($"Se ha dado de baja correctamente la instancia de la aplicacion {base.Nombre}...");
             }
         }
     }
